@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 10px;
+}
+
+.card {
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
